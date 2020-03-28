@@ -1,0 +1,21 @@
+{
+  "hosting": [ {
+    "target": "main",
+    "public" : "dist/MyWebSite",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  {
+    "target": "alt",
+    "public" : "dist/MyWebSite",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+  ]
+}

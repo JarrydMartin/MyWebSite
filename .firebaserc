@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "dev-jarrydmartin-mywebsite"
+  },
+  "targets": {
+    "dev-jarrydmartin-mywebsite": {
+      "hosting": {
+        "main": [
+          "dev-jarrydmartin-mywebsite"
+        ],
+        "alt": [
+          "jarrydmartin"
+        ]
+      }
+    }
+  }
+}
