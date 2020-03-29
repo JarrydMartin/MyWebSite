@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 
 import { Hero } from './hero';
-import { HEROES } from './mock-heroes';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 
 @Injectable({
@@ -10,7 +10,7 @@ import { HEROES } from './mock-heroes';
 })
 export class HeroService {
 
-  constructor() { }
+  constructor(private firestore: AngularFirestore) { }
 
   getHeroes(): Observable<Hero[]> {
     return of (HEROES);
