@@ -1,5 +1,7 @@
 # MyWebSite
 
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/JarrydMartin/MyWebSite/CI/master)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
 ## Development server
