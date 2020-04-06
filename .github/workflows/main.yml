@@ -19,7 +19,11 @@ jobs:
       run: |
         sudo npm install -g firebase-tools
         firebase deploy --token ${{ secrets.FIREBASE_TOKEN }} --only hosting:alt
-   
+    - name: Azure Login
+      uses: Azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }} 
+    - name: Azure Depoly
     - uses: Azure/webapps-deploy@v2
       with:
         # Name of the Azure Web App
