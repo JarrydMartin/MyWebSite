@@ -22,7 +22,7 @@ jobs:
     - name: Azure Login
       uses: Azure/login@v1
       with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }} 
+        credentials: ${{ secrets.AZURE_CREDENTIALS }} 
     - name: Azure Depoly
       uses: Azure/webapps-deploy@v2
       with:
