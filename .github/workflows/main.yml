@@ -26,6 +26,5 @@ jobs:
     - name: Azure Depoly
       uses: Azure/webapps-deploy@v2
       with:
-        # Name of the Azure Web App
         app-name: WA-MyWebSite
       
